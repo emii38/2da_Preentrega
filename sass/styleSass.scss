@@ -1,0 +1,115 @@
+/* Contact */
+.body_main{
+  .main__contact{
+    margin: 10px;
+    padding: 10px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    iframe{
+        width: 100%;
+        }  
+    form {
+        fieldset {
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            margin: 10px;
+            padding: 10px;
+            textarea {
+                margin-top: 10px;
+                margin-bottom: 10px;
+                resize: none;
+                border-color: black;
+            }
+            input {
+                margin-bottom: 10px;
+            }
+            button {
+                margin-bottom: 10px;
+            }
+            select{
+                margin: 10px;
+            }
+        }
+    }
+
+    }
+
+}
+/* Discography */
+
+.main__discography {
+    margin: 10px;
+    padding: 10px;
+    ul {
+        list-style: none;
+
+        li{
+            display: grid;
+            align-items: center;
+            padding: 10px;
+          
+        }
+       
+    }
+
+}
+@media all and (max-width: 320px){
+    /* Contact */
+.body_main{
+    .main__contact{
+        margin: 15px;
+        padding: 15px;
+      iframe{
+          width: 100%;
+          }  
+      form {
+          fieldset {
+              display: grid;
+              justify-content: center;
+              align-items: center;
+              margin: 10px;
+              padding: 10px;
+              textarea {
+                  margin-top: 10px;
+                  margin-bottom: 10px;
+                  resize: none;
+                  border-color: black;
+              }
+              input {
+                  margin: 10px;
+                  margin-bottom: 15px;
+              }
+              button {
+                margin-bottom: 10px;
+              }
+              select{
+                  margin: 10px;
+              }
+          }
+      }
+  
+      }
+  
+  }
+
+    /* Members */
+.members__main{ 
+    width: 100%;
+    ul{
+        li{
+            list-style: none;
+        }
+    }
+    ol{
+        li{
+            list-style: none;
+        }
+
+    }
+
+}
+
+}
+

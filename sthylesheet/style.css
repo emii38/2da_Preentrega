@@ -1,75 +1,72 @@
 /* contact */
-main.main__contact {
+/* main.main__contact {
     margin: 10px;
     padding: 10px;
     display: grid;
     justify-content: center;
     align-items: center;
 
-}
-main.main__contact textarea {
+} */
+/* main.main__contact textarea {
     margin-top: 10px;
     margin-bottom: 10px;
-}
-.main__contact select{
+} */
+/* .main__contact select{
     margin: 10px;
-}
+} */
 
     
-form fieldset{
+/* form fieldset{
     display: grid;
     justify-content: center;
     align-items: center;
     margin: 10px;
     padding: 10px;
 
-}
-main.main__contact input {
+} */
+/* main.main__contact input {
     margin-bottom: 5px;
-}
-main.main__contact button {
+} */
+/* main.main__contact button {
     margin-bottom: 5px;
-}
-form fieldset textarea{
+} */
+/* form fieldset textarea{
     resize: none;
-}
-.body_main iframe{
+} */
+/* .body_main iframe{
     width: 100%;
-}
+} */
+
 /* Discography */
 
-
-.main__discography {
+/* .main__discography {
     margin: 10px;
     padding: 10px;
     display: grid;
     justify-content: center;
     align-items: center;
 
-}
-h1 {
-    margin: 10px;
-    margin: 10px;
-}
+} */
 
-.main__discography ul {
+
+/* .main__discography ul {
     list-style: none;
     display: grid;
     justify-content: center;
     align-items: center;
    
-}
+} */
 
-.main__discography ul li img{
+/* .main__discography ul li img{
     display: grid;
     justify-content: center;
     align-items: center;
-}
+} */
 
-
-@media all and (max-width: 320px){
-    /* Contacto_media-queries */
-    .body__main{
+/* 
+@media all and (max-width: 320px){ */
+/*     /* Contacto_media-queries */
+/*     .body__main{
         width: 100%;
 }
     main.main__contact input {
@@ -85,7 +82,7 @@ h1 {
         
 }   
     main.main__contact button {
-        margin-bottom: 5px;
+        margin-bottom: 10px;
         
     }
     main.main__contact textarea {
@@ -100,9 +97,9 @@ h1 {
         display: flex;
         justify-content: center;
     }
-}
+} */ 
 /* integrandes__media-queries */
-    .members__main{
+/*     .members__main{
     width: 100%;
 }
     main.members__main li{
@@ -112,4 +109,4 @@ h1 {
     main.members__main ol.members__previous {
         list-style: none;
     
-    }
+    } */

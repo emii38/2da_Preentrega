@@ -1,0 +1,70 @@
+/* Contact */
+.body_main .main__contact {
+  margin: 10px;
+  padding: 10px;
+  display: grid;
+  justify-content: center;
+  align-items: center; }
+  .body_main .main__contact iframe {
+    width: 100%; }
+  .body_main .main__contact form fieldset {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 10px; }
+    .body_main .main__contact form fieldset textarea {
+      margin-top: 10px;
+      margin-bottom: 10px;
+      resize: none;
+      border-color: black; }
+    .body_main .main__contact form fieldset input {
+      margin-bottom: 10px; }
+    .body_main .main__contact form fieldset button {
+      margin-bottom: 10px; }
+    .body_main .main__contact form fieldset select {
+      margin: 10px; }
+
+/* Discography */
+.main__discography {
+  margin: 10px;
+  padding: 10px; }
+  .main__discography ul {
+    list-style: none; }
+    .main__discography ul li {
+      display: grid;
+      align-items: center;
+      padding: 10px; }
+
+@media all and (max-width: 320px) {
+  /* Contact */
+  .body_main .main__contact {
+    margin: 15px;
+    padding: 15px; }
+    .body_main .main__contact iframe {
+      width: 100%; }
+    .body_main .main__contact form fieldset {
+      display: grid;
+      justify-content: center;
+      align-items: center;
+      margin: 10px;
+      padding: 10px; }
+      .body_main .main__contact form fieldset textarea {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        resize: none;
+        border-color: black; }
+      .body_main .main__contact form fieldset input {
+        margin: 10px;
+        margin-bottom: 15px; }
+      .body_main .main__contact form fieldset button {
+        margin-bottom: 10px; }
+      .body_main .main__contact form fieldset select {
+        margin: 10px; }
+  /* Members */
+  .members__main {
+    width: 100%; }
+    .members__main ul li {
+      list-style: none; }
+    .members__main ol li {
+      list-style: none; } }
