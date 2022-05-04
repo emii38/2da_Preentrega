@@ -51,8 +51,7 @@
         <form class="form" action="/ruta-destino" method="get" enctype="" >
             <fieldset>
                 <legend>Contact, Response within 24 hours</legend>
-                <label for="Name and surname">Name and surname</label>
-                <input type="text" name="username"
+                <input type="text" name="username" placeholder="Name and surname"
                 id="Nombre__Apellido" required>
                 <input type="number" name="phone" placeholder="Telefono" required>
                 <input type="email" name="email" placeholder="Enter your email" required>
@@ -68,8 +67,8 @@
                 <option value="ar">Uruguay</option>
                 </select>
                 <textarea name="message" placeholder="Leave your message" cols="30" rows="10"></textarea>
-                <button type="reset">Clean</button>
-                <button type="submit">Send</button>
+                <button class="btn-clean" type="reset">Clean</button>
+                <button class="btn-send" type="submit">Send</button>
 
               </fieldset>
         </form>
